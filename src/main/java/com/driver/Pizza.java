@@ -80,7 +80,7 @@ public class Pizza {
             if(isVeg){
                 temp+= "Extra Toppings Added:"+ extraToppingVeg + "\n";
             }else{
-                temp+= "Extra Toppings Added:"+ nonVegBasePrice + "\n";
+                temp+= "Extra Toppings Added:"+ extraToppingNonVeg + "\n";
             }
         }
 
