@@ -31,14 +31,15 @@ public class Pizza {
         this.isTakeAway = false;
     }
 
+    public int getPrice(){
+        return this.price;
+    }
+
     private int getBasePrice(){
         if(isVeg) return vegBasePrice;
         return nonVegBasePrice;
     }
 
-    public int getPrice(){
-        return this.price;
-    }
 
     public void addExtraCheese(){
         // your code goes here
