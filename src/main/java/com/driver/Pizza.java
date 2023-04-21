@@ -72,7 +72,7 @@ public class Pizza {
     public String getBill(){
         // your code goes here
         String temp = "";
-        temp+= "Veg pizza base price:" + basePrice + "\n";
+        temp+= "Base Price Of The Pizza:" + basePrice + "\n";
         if(isExtraCheese){
             temp+= "Extra Cheese Added:" + extraCheese + "\n";
         }
