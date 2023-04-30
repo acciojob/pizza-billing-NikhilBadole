@@ -72,24 +72,24 @@ public class Pizza {
     public String getBill(){
         // your code goes here
         String temp = "";
-        temp+= "Base Price Of The Pizza:" + basePrice + "\n";
+        temp+= "Base Price Of The Pizza: " + basePrice + "\n";
         if(isExtraCheese){
-            temp+= "Extra Cheese Added:" + extraCheese + "\n";
+            temp+= "Extra Cheese Added: " + extraCheese + "\n";
         }
 
         if(isTopping){
             if(isVeg){
-                temp+= "Extra Toppings Added:"+ extraToppingVeg + "\n";
+                temp+= "Extra Toppings Added: "+ extraToppingVeg + "\n";
             }else{
-                temp+= "Extra Toppings Added:"+ extraToppingNonVeg + "\n";
+                temp+= "Extra Toppings Added: "+ extraToppingNonVeg + "\n";
             }
         }
 
         if(isTakeAway){
-            temp+= "Paperbag Added:" + paperBgPrice + "\n";
+            temp+= "Paperbag Added: " + paperBgPrice + "\n";
         }
 
-        temp+= "Total Price:" + price +"\n";
+        temp+= "Total Price: " + price +"\n";
 
         this.bill = temp;
 
